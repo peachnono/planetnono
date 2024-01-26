@@ -1,0 +1,230 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 50px 20px 10px;
+  max-width: 1080px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-size: 60px;
+}
+h3 {
+  font-size: 20px;
+}
+
+
+
+/* styles.css */
+/* Image Gallery Container */
+.image-gallery-container {
+  display: flex;
+  overflow-x: auto;
+  max-height: 500px;
+  padding: 10px; /* Add some padding to the container */
+}
+
+/* Image Container */
+.image-container {
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: 10px;
+  cursor: pointer; /* Add cursor pointer to indicate clickability */
+  transition: transform 0.2s ease; /* Add a subtle transition effect */
+}
+
+.image-container:hover {
+  transform: scale(1.05); /* Scale up on hover for a nice effect */
+}
+
+/* Image Styles */
+.image-container img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px; /* Add rounded corners for a more aesthetic look */
+}
+
+.image-gallery-container::-webkit-scrollbar {
+  width: 8px; /* Set the width of the scrollbar */
+}
+
+.image-gallery-container::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5); /* Set the color of the thumb (draggable part) */
+  border-radius: 4px; /* Add rounded corners to the thumb */
+}
+
+.image-gallery-container::-webkit-scrollbar-track {
+  background-color: rgba(109, 92, 92, 0.616); /* Set the color of the track (non-draggable part) */
+}
+
+
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Modal */
+.modal {
+  background: white;
+  padding: 20px;
+  max-width: 80%; /* Increase the max-width for a larger modal */
+  max-height: 80%;
+  overflow: auto;
+  border-radius: 8px; /* Add rounded corners to the modal */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.headline {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-top: 15px;
+  line-height: 0.5; /* Adjust this value based on your preference */
+}
+
+.intro {
+  border: 1px solid red;
+  line-height: 1.5; 
+}
+
+.skillsBox {
+  border: 1px solid green;
+  padding: 50px;
+  margin: 0px;
+
+}
+
+/* styles.css */
+.graphic-image {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  /* You can also set a max-width if you want to limit the size */
+  max-width: 100%;
+  margin-right: 10px; 
+}
+
+.web-image {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  /* You can also set a max-width if you want to limit the size */
+  max-width: 100%;
+  margin-right: 10px; 
+}
+
+.contact-image {
+  width: 50px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%;
+  margin-right: 10px; 
+}
+
+.codeNetwork {
+  background-color: black;
+  color: #ffffff;
+  padding: 20px;
+  margin: 0 0 2px 0; /* Add margin at the bottom */
+  transition: background-color 0.3s ease; /* Add a smooth transition effect for background-color */
+}
+
+.codeNetwork:hover {
+  background-color: #333; /* Set the desired darker color for hover state */
+}
+
+.arcMigration {
+  background-color: black;
+  color: #ffffff;
+  padding: 20px;
+  margin: 0 0 5px 0;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect for background-color */
+}
+
+.arcMigration:hover {
+  background-color: #333; /* Set the desired darker color for hover state */
+}
+
+.graphicDes {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.graphicDes:hover {
+  color: #f72585; /* Set the desired grey color for hover state */
+}
+
+.graphicDes.clicked {
+  color: #f72585; /* Set the same grey color for the clicked state */
+}
+
+.webDesign {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.webDesign:hover {
+  color: #f72585; /* Set the desired grey color for hover state */
+}
+
+.webDesign.clicked {
+  color: #f72585; /* Set the same grey color for the clicked state */
+}
+
+.movieRepository {
+  background-color: black;
+  color: #ffffff;
+  padding: 20px;
+  margin: 0 0 5px 0;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect for background-color */
+}
+
+.movieRepository:hover {
+  background-color: #333; /* Set the desired darker color for hover state */
+}
+
+.codeNetworkExp {
+  background-color: #fff;
+  border: 1px solid black;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.planetNonoExp {
+  background-color: #fff;
+  border: 1px solid black;
+  padding: 20px;
+  margin-bottom: 10px;
+}

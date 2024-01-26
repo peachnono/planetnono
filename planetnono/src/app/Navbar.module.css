@@ -1,0 +1,51 @@
+/* Navbar.module.css */
+
+.navList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navItem {
+  margin-right: 50px;
+}
+
+.navItem:last-child {
+  margin-right: 0;
+}
+
+/* Add ease transition to hover effect */
+.navItem div {
+  transition: color 0.3s ease; /* Add a smooth transition effect */
+  text-decoration: none; /* Remove underline */
+  color: #000; /* Set the default color */
+}
+
+/* Add hover effect */
+.navItem div:hover {
+  color: #f72585; /* Change to your desired hover color */
+}
+
+/* Add styles for the active link */
+.navItem div.active {
+  color: #f72585; /* Set the active link color */
+}
+
+/* Add underline when clicked */
+.navItem div.clicked {
+  text-decoration: underline;
+}
+
+/* Adjust font style and size */
+.navItem div {
+  font-family: Arial, Helvetica, sans-serif; /* Change to your desired font */
+  font-size: 16px; /* Change to your desired font size */
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* Remove right border for the last item */
+.navItem:last-child {
+  border-right: none;
+}
