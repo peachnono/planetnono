@@ -109,13 +109,29 @@ html {
   box-sizing: inherit;
 }
 
+
+
 .headline {
   font-size: 2rem;
   font-weight: bold;
-  margin-bottom: 20px;
-  padding-top: 15px;
+  margin-bottom: 10px; /* Adjust the margin based on your preference */
+  padding-top: 10px; /* Adjust the padding based on your preference */
   line-height: 0.5; /* Adjust this value based on your preference */
+
 }
+
+.headline h1 {
+  white-space: nowrap;
+
+  @media screen and (max-width: 600px) {
+    /* Adjust the styles for smaller screens */
+    margin-bottom: 5px; /* Adjust the margin for smaller screens */
+    padding-top: 5px; /* Adjust the padding for smaller screens */
+    line-height: 0.75; /* Adjust this value for smaller screens */
+  }
+}
+
+
 
 .intro {
   border: 1px solid red;
@@ -124,34 +140,34 @@ html {
 
 .skillsBox {
   border: 1px solid green;
-  padding: 50px;
-  margin: 0px;
+  padding: 20px; /* Decrease padding for smaller screens */
+  margin: 0;
 
+  @media screen and (min-width: 768px) {
+    /* Larger screen styles */
+    padding: 50px; /* Original padding for larger screens */
+  }
 }
 
-/* styles.css */
-.graphic-image {
-  width: 100px; /* Adjust the width as needed */
-  height: auto; /* Maintain aspect ratio */
-  /* You can also set a max-width if you want to limit the size */
-  max-width: 100%;
-  margin-right: 10px; 
-}
-
-.web-image {
-  width: 100px; /* Adjust the width as needed */
-  height: auto; /* Maintain aspect ratio */
-  /* You can also set a max-width if you want to limit the size */
-  max-width: 100%;
-  margin-right: 10px; 
-}
-
+.graphic-image,
+.web-image,
 .contact-image {
-  width: 50px; /* Adjust the width as needed */
+  width: 100px; /* Adjust the width as needed */
   height: auto; /* Maintain aspect ratio */
   max-width: 100%;
-  margin-right: 10px; 
+  margin-right: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  /* Styles for screens up to 768px wide */
+  .graphic-image,
+  .web-image,
+  .contact-image {
+    width: 50px; /* Decrease width for smaller screens */
+    margin-right: 5px; /* Decrease margin for smaller screens */
+  }
+}
+
 
 .codeNetwork {
   background-color: black;
