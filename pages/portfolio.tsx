@@ -22,6 +22,7 @@ const Portfolio: React.FC = () => {
       <Navbar />
       <div>
         <h1>Portfolio</h1>
+        <h4>Click through here to see my work:</h4>
         <div className='graphicDes'>
         <h2 className={`graphicDes ${graphicalDesignClicked ? 'clicked' : ''}`} onClick={() => setGraphicalDesignClicked(!graphicalDesignClicked)}>
           Graphical Design

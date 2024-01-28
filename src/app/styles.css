@@ -232,11 +232,14 @@ html {
 
 .graphicDes {
   cursor: pointer;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease, background-color 0.3s ease, text-decoration 0.3s ease, font-weight 0.3s ease;
 }
 
 .graphicDes:hover {
   color: #f72585; /* Set the desired grey color for hover state */
+  background-color: #f8f8f8; /* Set the desired background color for hover state */
+  text-decoration: underline; /* Underline on hover */
+  font-weight: bold; /* Increase font weight on hover */
 }
 
 .graphicDes.clicked {
@@ -245,11 +248,14 @@ html {
 
 .webDesign {
   cursor: pointer;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease, background-color 0.3s ease, text-decoration 0.3s ease, font-weight 0.3s ease;
 }
 
 .webDesign:hover {
   color: #f72585; /* Set the desired grey color for hover state */
+  background-color: #f8f8f8; /* Set the desired background color for hover state */
+  text-decoration: underline; /* Underline on hover */
+  font-weight: bold; /* Increase font weight on hover */
 }
 
 .webDesign.clicked {
