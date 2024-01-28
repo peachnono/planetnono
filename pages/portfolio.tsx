@@ -12,7 +12,7 @@ const Portfolio: React.FC = () => {
 
   const [movieRepositoryClicked, setMovieRepositoryClicked] = useState(false);
 
-  const ArcImages = ['arc1.png', 'arc2.png', 'arc3.png', 'arc4.jpg', 'arc5.jpg'];
+  const ArcImages = ['arc1.png', 'arc2.png'];
   const CodePros = ['code1.jpg', 'code2.jpg', 'code3.jpg', 'code4.jpg', 'code5.jpg', 'code6.jpg', 'code7.jpg', 'code8.jpg', 'code9.jpg', 'code10.jpg'];
   const CodeSoc = ['codesoc1.gif', 'codesoc2.jpg', 'codesoc3.png'];
   const webSite = ['Picture1.png', 'Picture2.png', 'Picture3.png'];

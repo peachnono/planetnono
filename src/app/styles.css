@@ -134,28 +134,38 @@ html {
 
 
 .intro {
-  border: 1px solid red;
-  line-height: 1.5; 
+  background-color: #fff;
+  border: 1px solid black;
+  padding: 20px;
+  margin-bottom: 10px;
 }
 
-.skillsBox {
-  border: 1px solid green;
-  padding: 20px; /* Decrease padding for smaller screens */
-  margin: 0;
-
+.skills {
+  background-color: #fff;
+  border: 1px solid black;
+  padding: 20px;
   @media screen and (min-width: 768px) {
     /* Larger screen styles */
-    padding: 50px; /* Original padding for larger screens */
+    padding: 20px; /* Original padding for larger screens */
   }
 }
 
+
 .graphic-image,
-.web-image,
-.contact-image {
+.web-image {
   width: 100px; /* Adjust the width as needed */
   height: auto; /* Maintain aspect ratio */
   max-width: 100%;
   margin-right: 10px;
+  vertical-align: middle; /* Align images in the middle */
+}
+
+.contact-image {
+  width: 50px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%;
+  margin-right: 10px;
+  vertical-align: middle; /* Align images in the middle */
 }
 
 @media screen and (max-width: 768px) {
@@ -167,6 +177,23 @@ html {
     margin-right: 5px; /* Decrease margin for smaller screens */
   }
 }
+
+.contacts {
+  text-align: center;
+}
+
+.contacts section {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  text-align: left; /* Reset text-align for inner content */
+}
+
+.contacts section p {
+  margin: 5px 0; /* Optional: Adjust the margin for better spacing */
+}
+
+
 
 
 .codeNetwork {
