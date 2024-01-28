@@ -193,8 +193,18 @@ html {
   margin: 5px 0; /* Optional: Adjust the margin for better spacing */
 }
 
+.qutExp {
+  background-color: #fff;
+  border: 1px solid black;
+  padding: 20px;
+  margin-bottom: 10px;
+}
 
-
+.qutExp li {
+  border: 1px solid #8e8e8e; /* Add a border for separation */
+  padding: 10px; /* Add padding for spacing */
+  margin-bottom: 5px; /* Adjust margin as needed */
+}
 
 .codeNetwork {
   background-color: black;
@@ -265,9 +275,21 @@ html {
   margin-bottom: 10px;
 }
 
+.codeNetworkExp li {
+  border: 1px solid #8e8e8e; /* Add a border for separation */
+  padding: 10px; /* Add padding for spacing */
+  margin-bottom: 5px; /* Adjust margin as needed */
+}
+
 .planetNonoExp {
   background-color: #fff;
   border: 1px solid black;
   padding: 20px;
   margin-bottom: 10px;
+}
+
+.planetNonoExp li {
+  border: 1px solid #8e8e8e; /* Add a border for separation */
+  padding: 10px; /* Add padding for spacing */
+  margin-bottom: 5px; /* Adjust margin as needed */
 }

@@ -47,7 +47,7 @@ const Home: React.FC = () => {
           <p><img className='contact-image' src="/images/email.png" alt="Email" />
             <a href="mailto:your.email@example.com">nhordejan@gmail.com</a></p>
           <p><img className='contact-image' src="/images/discord.png" alt="Discord" />niikawl</p>
-          <p><img className='contact-image' src="/images/github.png" alt="Phone" />
+          <p><img className='contact-image' src="/images/phone.png" alt="Phone" />
               61414945443</p>          
         </section>
         </div>

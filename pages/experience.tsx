@@ -41,7 +41,7 @@ const Experience: React.FC = () => {
         
            <h1>Education</h1>
 
-      
+          <div className='qutExp' >
           <h3>Bachelor of Information Technology Student</h3>
           <p>Queensland University of Technology</p>
           <p>July 2022 - Present</p>
@@ -56,7 +56,7 @@ const Experience: React.FC = () => {
             <li>IFB104: Building IT Systems</li>
             <li>IFB105: Database Management</li>
           </ul>
-        
+        </div>
        </div>
     </div>
   );
