@@ -1,0 +1,75 @@
+.navList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: fixed; /* Set navbar to fixed position */
+  top: 0; /* Align navbar to the top of the viewport */
+  width: 100%; /* Ensure navbar spans the full width */
+  background-color: #fff; /* Add a background color for visibility */
+  z-index: 1000; /* Ensure navbar stays above other content */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+}
+
+.navItem {
+  margin-right: 30px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+.navItem:last-child {
+  margin-right: 0;
+}
+
+.navItem div {
+  transition: color 0.3s ease;
+  text-decoration: none;
+  color: #000;
+}
+
+.navItem div:hover {
+  color: #c91717;
+}
+
+.navItem div.active {
+  color: #c91717;
+}
+
+.navItem div.clicked {
+  text-decoration: underline;
+}
+
+.navItem div {
+  font-family: 'loud', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navItem:last-child {
+  border-right: none;
+}
+
+@media (max-width: 768px) {
+  .navItem {
+    margin-left: 0;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .navItem div {
+    font-size: 15px;
+  }
+}
+
+@font-face {
+  font-family: 'loud';
+  src: url('/love.ttf') format('truetype');
+}
+
+.loudFont {
+  font-family: 'loud', sans-serif;
+}

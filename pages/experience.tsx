@@ -1,5 +1,5 @@
 import React from 'react';
-import '/src/app/styles.css';
+import '/src/app/styles/styles.css';
 import Navbar from './_navbar';
 
 const Experience: React.FC = () => {

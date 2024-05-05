@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'loud';
+    src: url('/love.ttf') format('truetype');
+  }
+  
+  .loudFont {
+    font-family: 'loud', sans-serif;
+  }
+
+  
+  @font-face {
+    font-family: 'babydoll';
+    src: url('/babydoll.otf') format('opentype');
+  }
+  
+  
+  .babydollFont {
+    font-family: 'babydoll', sans-serif;
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 40px;
+    margin: 0;
+  }
+
+  .codeNetwork p {
+    font-size: 20px;
+    margin: 0;
+    padding-top: 5px;
+  }
+
+  .codeNetworkImages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  
+  .codeNetworkImages img {
+    width: 320px; 
+    height: auto;
+    padding: 10px;
+  }

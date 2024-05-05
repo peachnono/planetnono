@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 50px 20px 10px;
+  max-width: 1080px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding-left: 0; /* Remove the left padding */
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  margin: 0;
+}
+
+.headline h1 {
+  font-size: 60px;
+  margin-bottom: 0px;
+}
+
+.headline .line,
+.headline .intro {
+  margin-top: 10px;
+}
+
+.headline p {
+  font-size: 30px;
+  margin: 0;
+}
+
+.intro p {
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 768px) {
+  body {
+    padding: 80px 20px; 
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .headline {
+    align-items: center;
+    height: auto; /* Adjusted height */
+    padding: 20px 0; /* Added padding */
+    text-align: center;
+    margin: 0;
+  }
+
+  .headline h1 {
+    font-size: 40px;
+  }
+
+  .headline p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .intro p {
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+  }
+}
+
+/* Fonts */
+@font-face {
+  font-family: 'babydoll';
+  src: url('/babydoll.otf') format('opentype');
+}
+
+.babydoll-font {
+  font-family: 'babydoll', sans-serif;
+}
+
+.intro.babydoll-font p,
+.line.babydoll-font p {
+  font-family: 'babydoll', sans-serif;
+}
+
+@font-face {
+  font-family: 'loud';
+  src: url('/love.ttf') format('truetype');
+}
+
+.headline.loudFont {
+  font-family: 'loud', sans-serif;
+}
+
