@@ -1,45 +1,120 @@
 @font-face {
-    font-family: 'loud';
-    src: url('/love.ttf') format('truetype');
-  }
-  
-  .loudFont {
-    font-family: 'loud', sans-serif;
-  }
+  font-family: 'loud';
+  src: url('/love.ttf') format('truetype');
+}
 
-  
-  @font-face {
-    font-family: 'babydoll';
-    src: url('/babydoll.otf') format('opentype');
-  }
-  
-  
-  .babydollFont {
-    font-family: 'babydoll', sans-serif;
-    font-size: 20px;
+.loudFont {
+  font-family: 'loud', sans-serif;
+}
+
+
+@font-face {
+  font-family: 'babydoll';
+  src: url('/babydoll.otf') format('opentype');
+}
+
+
+.babydollFont {
+  font-family: 'babydoll', sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 0;
+  padding-top: 10px;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.codeNetwork p {
+  font-size: 20px;
+  margin: 0;
+  padding-top: 5px;
+}
+
+.codeNetworkImages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.codeNetworkImages img {
+  width: 320px; 
+  height: auto;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+}
+
+.STIMulate p{
+  font-size: 20px;
+  margin: 0;
+  padding-top: 5px;
+}
+
+.STIMulateImages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.STIMulateImages img {
+  width: 960px; 
+  height: auto;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+}
+
+@media screen and (min-width: 320px) {
+  h1 {
+    font-size: 30px; /* Decrease font size for smaller screens */
+    padding-top: 40px;
   }
 
   h2 {
-    font-size: 40px;
-    margin: 0;
+    font-size: 20px; /* Decrease font size for smaller screens */
   }
 
-  .codeNetwork p {
-    font-size: 20px;
-    margin: 0;
-    padding-top: 5px;
+  .babydollFont {
+    font-size: 12px; /* Decrease font size for smaller screens */
   }
 
-  .codeNetworkImages {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 10px;
+  .codeNetwork p,
+  .STIMulate p {
+    font-size: 16px; /* Decrease font size for smaller screens */
   }
-  
-  .codeNetworkImages img {
-    width: 320px; 
-    height: auto;
-    padding: 10px;
+
+  .codeNetworkImages img,
+  .STIMulateImages img {
+    max-width: 100%; /* Adjust maximum width for smaller screens */
   }
+}
+
+/* Maintain header font size as the original size for bigger screens */
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 60px;
+    padding-top: 40px;
+  }
+
+  h2 {
+    font-size: 30px; /* Decrease font size for smaller screens */
+  }
+
+  .codeNetwork p,
+  .STIMulate p {
+    font-size: 18px; /* Decrease font size for smaller screens */
+  }
+
+  .codeNetworkImages img,
+  .STIMulateImages img {
+    max-width: 100%; /* Adjust maximum width for smaller screens */
+  }
+}

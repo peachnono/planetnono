@@ -18,9 +18,12 @@ const Portfolio: React.FC = () => {
         <img src="/images/codesoc1.gif" alt="Code Network" />
         </div>
         </div>
-        <div className='movieSearch'>
-        <h2>Movie Search (2023)</h2>
-        <p className='babydollFont'>This is a site I did using JavaScript for my web computing class. You can find the full report of the site here: <a href='report.pdf'>Movie Search Report</a></p>
+        <div className='STIMulate'>
+        <h2>STIMulate Workshop Resource (Present)</h2>
+        <p className='babydollFont'>This is a site I made as a supplementary resource for the workshops of STIMulate. You can visit the site here: <a href='https://helpifb104.github.io/'>https://helpifb104.github.io/</a></p>
+        <div className='STIMulateImages'>
+        <img src="/images/Workshop.png" alt="Code Network" />
+        </div>
         </div>
     </div>
 </div>
